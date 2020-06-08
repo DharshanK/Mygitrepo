@@ -4,6 +4,7 @@ import java.util.Date;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import Baseclass.BaseTest;
@@ -25,21 +26,16 @@ public class practicePageLanding extends BaseTest {
 		
 	 Thread.sleep(5000);
 		Reigisterclass rc=hp.joinbutton();
-		
-	
-		
-	
-		
-	
-
-		
-		
-		
-		
-		
-
-		
+				
 
 	}
+	
+	@Test
+	public void Testmethod()
+	
+	{
+		Assert.assertEquals(true, false);
+	}
+	
 
 }
