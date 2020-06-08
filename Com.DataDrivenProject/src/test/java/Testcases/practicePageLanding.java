@@ -30,12 +30,7 @@ public class practicePageLanding extends BaseTest {
 
 	}
 	
-	@Test
-	public void Testmethod()
-	
-	{
-		Assert.assertEquals(true, false);
-	}
+
 	
 
 }
